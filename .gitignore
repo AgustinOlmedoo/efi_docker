@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# Flask
+instance/
+*.ini
+
+# Logs and databases
+*.log
+*.db
+
+# Environment-specific
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+
+# SQLAlchemy
+*.sqlite
+*.sql
+
+# Flask-Migrate
+/migrations/
